@@ -1,0 +1,56 @@
+#dashboard-header {
+    background-color: aliceblue;
+    border-radius: 0 0 20px 20px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.forecast {
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+.forecast h1 {
+    font-size: 1.7rem;
+}
+.forecast .temp {
+    font-size: 2.5rem;
+}
+.forecast .humidity {
+    font-size: 1.7rem;
+}
+.forecast img {
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+
+#current_weather {
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.current-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #000;
+    margin-bottom: 5px;
+}
+
+.past-city {
+    border: 1px solid #000;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 2%;
+    font-size: 2rem;
+    width: 100%;
+}
+
+#danger-level {
+    padding: 2px 5px;
+    border-radius: 5px;
+}
